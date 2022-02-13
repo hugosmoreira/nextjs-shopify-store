@@ -6,6 +6,7 @@ import Hero2 from '../Hero/Hero2/Hero2'
 import Collection1 from '../Collections/Collection1/Collection1'
 import Collection2 from '../Collections/Collection2/Collection2'
 import Collection3 from '../Collections/Collection3/Collection3'
+import Footer from '../Footer/Footer'
 
 export default function MainLayout(props){
   return(<div className="fixed-nav transparent-nav">
@@ -14,6 +15,7 @@ export default function MainLayout(props){
       <Collection1 />
       <Collection2 />
       <Collection3 />
+      <Footer />
     <main >{props.children}</main>
     <header>This is the Footer</header>
   </div>)
